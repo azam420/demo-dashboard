@@ -1,0 +1,29 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.brand-logo{
+  font-family: 'Fascinate Inline', cursive;
+
+}
+.loader{
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+.footer-logo{
+  font-family: 'Fascinate Inline', cursive;
+font-size: 20px;
+}
+ .pagination li a {
+  padding: 0 10px 0 30px;
+  
+}
+.login{
+  margin: 90px 0;
+}
+.btn-extended{
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}

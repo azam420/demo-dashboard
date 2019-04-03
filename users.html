@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Import Google fonts Font-->
+  <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Montserrat" rel="stylesheet">
+
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <title>Fuselo Materialize Admin Panel</title>
+</head>
+
+<body class="grey lighten-4">
+
+  <!--Preloader-->
+
+  <div class="preloader-wrapper big active loader">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div>
+      <div class="gap-patch">
+        <div class="circle"></div>
+      </div>
+      <div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <nav class="blue darken-2">
+    <div class="container">
+      <div class="nav-warpper">
+        <a href="index.html" class="brand-logo">Fuselo</a>
+        <a href="#" class="button-collapse show-on-large right" data-activates="side-nav">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="index.html" class="">Dashboard</a>
+          </li>
+          <li>
+            <a href="posts.html" class="">Posts</a>
+          </li>
+          <li >
+            <a href="categories.html" class="">Categories</a>
+          </li>
+          <li>
+            <a href="comments.html" class="">Comments</a>
+          </li>
+          <li class="active">
+            <a href="users.html" class="">Users</a>
+          </li>
+        </ul>
+        <!-- Side Nav-->
+
+        <ul id="side-nav" class="side-nav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="img/ocean.jpg" alt="">
+              </div>
+              <a href="#">
+                <img src="img/person1.jpg" alt="" class="circle">
+              </a>
+              <a href="#">
+                <span class="name white-text">John Doe</span>
+              </a>
+              <a href="#">
+                <span class="email white-text">jdoe@gmail.com</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="index.html" class=""><i class="material-icons left">dashboard</i> Dashboard</a>
+          </li>
+          <li>
+            <a href="posts.html" class=""><i class="material-icons left">local_post_office</i> Posts</a>
+          </li>
+          <li>
+            <a href="categories.html" class=""><i class="material-icons left">view_list</i> Categories</a>
+          </li>
+          <li>
+            <a href="comments.html" class=""><i class="material-icons left">comment</i> Comments</a>
+          </li>
+          <li>
+            <a href="users.html" class=""><i class="material-icons left">person</i> Users</a>
+          </li>
+          <li>
+            <div href="#" class="divider"></div>
+          </li>
+          <li>
+            <a href="#" class="subheader">Account Controls</a>
+          </li>
+          <li>
+            <a href="login.html" class="waves-effect"><i class="material-icons left">exit_to_app </i> Logout</a>
+          </li>
+        </ul>
+
+        <!-- Side Nav-->
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <!-- section Users-->
+
+  <section class="section section-users grey lighten-4">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Users</span>
+                <table class="striped">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Registered</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td width="70">
+                            <img src="img/person4.jpg" alt="" class="responsive-img circle"
+                              style="width: 40px;margin-left: 10px;">
+                          </td>  
+                      <td>John Doe</td>
+                      <td>johnde@gmail.com</td>
+                      <td>Feb 2, 2019</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td width="70">
+                            <img src="img/person1.jpg" alt="" class="responsive-img circle"
+                              style="width: 40px;margin-left: 10px;">
+                          </td>  
+                      <td>Mike Tyson</td>
+                      <td>miketyson@gmail.com</td>
+                      <td>Feb 2, 2019</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td width="70">
+                            <img src="img/person2.jpg" alt="" class="responsive-img circle"
+                              style="width: 40px;margin-left: 10px;">
+                          </td>  
+                      <td>Vicky doc</td>
+                      <td>vickydoc@gmail.com</td>
+                      <td>Feb 2, 2019</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td width="70">
+                            <img src="img/person3.jpg" alt="" class="responsive-img circle"
+                              style="width: 40px;margin-left: 10px;">
+                          </td>  
+                      <td>Sara Ron</td>
+                      <td>sararon@gmail.com</td>
+                      <td>Feb 2, 2019</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td width="70">
+                            <img src="img/person4.jpg" alt="" class="responsive-img circle"
+                              style="width: 40px;margin-left: 10px;">
+                          </td>  
+                      <td>Wane Rock</td>
+                      <td>wanerock@gmail.com</td>
+                      <td>Feb 2, 2019</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details</a>
+                      </td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              <div class="card-action">
+                <ul class="pagination">
+                  <li class="disabled"><a href="#!" class="blue-text"><i class="material-icons">chevron_left</i></a></li>
+                  <li class="active blue lighten-2">
+                    <a href="#!" class="white-text ">1</a>
+                  </li>
+                  <li class="waves-effect blue-text">
+                    <a href="#!" class="blue-text ">2</a>
+                  </li>
+                  <li class="waves-effect blue-text">
+                    <a href="#!" class="blue-text ">3</a>
+                  </li>
+                  <li class="waves-effect blue-text">
+                    <a href="#!" class="blue-text ">4</a>
+                  </li>
+                  <li class="waves-effect blue-text">
+                    <a href="#!" class="blue-text ">5</a>
+                  </li>
+                  <li ><a href="#!" class="blue-text waves-effect"><i class="material-icons">chevron_right</i></a></li>
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section posts-->
+
+
+
+  <!-- Section Footer-->
+
+  <footer class="section blue darken-2 white-text center">
+    <p> <span class="footer-logo">Fuselo</span> &copy; 2019. All Right Reserved</p>
+  </footer>
+  <!-- Section Footer-->
+
+
+  <!-- Fixed Action Button-->
+
+  <div class="fixed-action-btn">
+    <a href="#user-modal" class="modal-trigger btn btn-floating btn-large red waves-effect waves-light"><i
+        class="material-icons">add</i></a>
+  </div>
+
+  <div id="user-modal" class="modal">
+      <div class="modal-content">
+        <h4>Add User</h4>
+        <form action="#">
+          <div class="input-field">
+            <input type="text" class="" id="name">
+            <label for="name">Name</label>
+          </div>
+          <div class="input-field">
+            <input type="text" class="" id="email">
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field">
+            <input type="text" class="" id="password">
+            <label for="password">Password</label>
+          </div>
+          <div class="input-field">
+            <input type="text" class="" id="c-pass">
+            <label for="c-pass">Confirm Password</label>
+          </div>
+ 
+        </form>
+        <div class="modal-footer">
+          <a href="#" class="modal-action  modal-close btn blue white-text">Submit</a>
+        </div>
+      </div>
+    </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <script>
+    $('.section').hide();
+
+    setTimeout(function () {
+
+      $(document).ready(function () {
+
+        //show sections
+        $('.section').fadeIn();
+
+        //hide preloader
+        $('.loader').fadeOut();
+
+        //init side-nav
+        $('.button-collapse').sideNav();
+
+        //Init modal
+        $('.modal').modal();
+
+
+      });
+
+    });
+  </script>
+</body>
+
+</html>
